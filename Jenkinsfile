@@ -2,7 +2,7 @@ pipeline {
   environment {
     registry = "kioma349/helloworld"
     registryCredential = 'dockerhub'
-    dockerImage = ''
+    dockerImage = 'kioma349/helloworld:latest'
   }
 
   agent any

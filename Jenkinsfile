@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "onepuchman/helloworld"
+    registry = "onepuchman/smartapp"
     registryCredential = 'dockerhub'
     dockerImage = ''
   }
